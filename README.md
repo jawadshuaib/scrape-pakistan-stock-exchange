@@ -1,10 +1,20 @@
-# PSX Stock Analysis Project
+# Scrape and Analyze Pakistan Stock Exchange
 
-The purpose of this project is to identify companies trading on the Pakistan Stock Exchange below their intrinsic value.
+This project identifies companies trading on the Pakistan Stock Exchange below their intrinsic value.
 
 This project scrapes all the stocks listed on the Pakistan Stock Exchange (PSX). It then calculates the growth rate for each company and feeds that into Google Sheets to discover the intrinsic value.
 
 Please note, this project is for educational purposes only. Please refer to guidelines on PSX for the efficacy of scraping data.
+
+## Requirements
+
+To install all the required dependencies, run the following command:
+
+```sh
+pip install -r requirements.txt
+```
+
+This will install Scrapy and Selenium, which are used for scraping. Additionally, you will need Chromium to run Selenium in a headless browser environment.
 
 ## Steps:
 
